@@ -2,6 +2,8 @@
 {
      public class IkiBoyut
     {
+
+         //Constructor ile x,y parametreleri ile sınıf oluşuyor.
          public IkiBoyut(int x, int y)
          {
              X = x;
@@ -14,6 +16,8 @@
 
          #region Overrides
 
+
+         //Object sınıfının ToString() metodu override ediliyor.
          public override string ToString()
          {
              return string.Format("X = {0}, Y = {1}", X, Y);
@@ -21,6 +25,7 @@
 
         #endregion
 
+         //propertylerin değerleri toplanıyor.
          public virtual int KoordinatToplam()
          {
              return X + Y;
