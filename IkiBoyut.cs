@@ -4,7 +4,7 @@
     {
 
          //Constructor ile x,y parametreleri ile sınıf oluşuyor.
-         public IkiBoyut(int x, int y)
+         public 2D(int x, int y)
          {
              X = x;
              Y = y;
